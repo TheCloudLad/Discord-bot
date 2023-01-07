@@ -26,7 +26,7 @@ async def on_ready():
     print("Login as : " +Fore.RED + client.user.name)
     print(Fore.CYAN+"Bot id :"+Fore.RED +str(client.user.id))
     print()
-    print("Live in Direct 021kid , Make it lit 🔥🔥")
+    print("redy")
     print()
     synced = await client.tree.sync()
     print(synced)
