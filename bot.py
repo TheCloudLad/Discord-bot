@@ -123,4 +123,4 @@ async def test(interaction:discord.Interaction):
 # Token part and run a clinet side of bot -__-
 
 
-client.run("MTA1NjU1MTA0MDIxODA1MDU2MA.Gu2k74.kmU0q0YxkdhMPaonP6jZcJN3nmqXRszsDkMkvQ")
+client.run("token")
