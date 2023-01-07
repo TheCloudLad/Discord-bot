@@ -105,9 +105,9 @@ async def name(interaction:discord.Interaction):
 async def stream_link(interaction:discord.Interaction):
     author = client.user.name
     embed = discord.Embed(title="Stream Started", description="",color=discord.Colour.random(),timestamp= datetime.datetime.utcnow())
-    embed.add_field(name="Live",value="https://gameria.tv/stream/91775435")
+    embed.add_field(name="Live",value="")
     embed.set_author(name=author)
-    embed.set_thumbnail(url="https://static.cdn.asset.aparat.com/agf/liveCover-486745-7923-l.jpg")
+    embed.set_thumbnail(url="")
     await interaction.response.send_message("@everyone",embed=embed)
 
 
